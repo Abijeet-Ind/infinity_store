@@ -1,0 +1,33 @@
+extends base
+
+block content
+    section.login-section
+      .login-form-display(style='max-height:100%; max-width: 100%;')
+        .input-email-section.input-bg-color
+          h1.highlight-heading Email
+          input#email(type='email' name='email')
+        .input-password-section.input-bg-color
+          h1.highlight-heading Password
+          input#password(type='password' name='password')
+        .input-submit-section.input-bg-color
+          input(type='submit' value='submit')
+        .input-submit-section.input-bg-color
+          a(href='#' style='text-decoration: none;')
+            p.highlight-heading(style='text-align: center; ')  Don&apos;t Have An Account
+          inp(<='' div='')
+            hr(style='margin: 2rem 2rem 0 2rem;')
+            .login-with-otherThings(style='background-color: transparent;')
+              h1.highlight-heading Login With Other Account
+              .other-login-items
+                a(href='/facebook')
+                  .facebook
+                    svg.feather.feather-facebook(xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewbox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round')
+                      path(d='M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z')
+                a(href='/google')
+                  .google
+                    svg.feather.feather-smile(xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewbox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round')
+                      circle(cx='12' cy='12' r='10')
+                      path(d='M8 14s1.5 2 4 2 4-2 4-2')
+                      line(x1='9' y1='9' x2='9.01' y2='9')
+                      line(x1='15' y1='9' x2='15.01' y2='9')
+    

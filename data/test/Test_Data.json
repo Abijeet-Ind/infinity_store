@@ -1,0 +1,138 @@
+[
+    {
+        "product": "Salt - Sea",
+        "description": "Laceration with foreign body of right ear",
+        "price": "1.96",
+        "image": "main-image.png",
+        "secondary_image": ["option.png", "option.png", "option.png" ],
+        "tags": ["salt", "namak", "nun"],
+        "common": "vegetable"
+    }, 
+    {
+        "product": "Chocolate - Liqueur Cups With Foil",
+        "description": "Acute leukemia of unspecified cell type, in remission",
+        "price": "9.46",
+        "image": "main-image.png",
+        "secondary_image": ["option.png", "option.png", "option.png" ],
+        "tags": ["chocolate", "toffee", "dary-milk"],
+        "common": "sweets"
+
+    },
+    {
+        "product": "Nectarines",
+        "description": "Alcohol use, unspecified",
+        "price": "8.57",
+        "image": "main-image.png",
+        "secondary_image": ["option.png", "option.png", "option.png" ],
+        "tags": ["aaru", "fruit", "Nectarines"],
+        "common": "fruit"
+    },
+    {
+        "product": "Flour - Bread",
+        "description": "Diabetes mellitus due to underlying condition with mild nonproliferative diabetic retinopathy with macular edema, left eye",
+        "price": "15.16",
+        "image": "main-image.png",
+        "secondary_image": ["option.png", "option.png", "option.png" ],
+        "tags": ["floor", "aata", "roti"],
+        "common": "bread"
+    },
+    {
+        "product": "chicken - Flank Steak",
+        "description": "Displaced fracture of anterior wall of unspecified acetabulum, initial encounter for open fracture",
+        "price": "22.37",
+        "image": "main-image.png",
+        "secondary_image": ["option.png", "option.png", "option.png" ],
+        "tags": ["chicken", "masu", "meat"],
+        "common": "meat"
+    }, 
+    {
+        "product": "Alize Sunset",
+        "description": "Unspecified fracture of shaft of humerus, right arm, subsequent encounter for fracture with routine healing",
+        "price": "1.84",
+        "image": "main-image.png",
+        "secondary_image": ["option.png", "option.png", "option.png" ],
+        "tags": ["juice", "sunset-juice", "drink", "packed-drink"],
+        "common": "juice"
+    }, 
+    {
+        "product": "Juice - Orange",
+        "description": "Unspecified maternal hypertension, first trimester",
+        "price": "12.90",
+        "image": "main-image.png",
+        "secondary_image": ["option.png", "option.png", "option.png" ],
+        "tags": ["juice", "orange-juice", "drink", "packed-drink"],
+        "common": "juice"
+    }, 
+    {
+        "product": "Mushroom - Porcini, Dry",
+        "description": "Other sprain of unspecified hip, subsequent encounter",
+        "price": "26.27",
+        "image": "main-image.png",
+        "secondary_image": ["option.png", "option.png", "option.png" ],
+        "tags": ["mushroom", "vegetable", "fungus"],
+        "common": "vegetable"
+    }, 
+    {
+        "product": "Loquat",
+        "description": "Carcinoma in situ of left bronchus and lung",
+        "price": "21.62",
+        "image": "main-image.png",
+        "secondary_image": ["option.png", "option.png", "option.png" ],
+        "tags": ["fruit", "sweet", "natural-sour"],
+        "common": "fruit"
+    }, 
+    {
+        "product": "Tea Leaves - Oolong",
+        "description": "Nondisplaced segmental fracture of shaft of left tibia, subsequent encounter for closed fracture with delayed healing",
+        "price": "23.56",
+        "image": "main-image.png",
+        "secondary_image": ["option.png", "option.png", "option.png" ],
+        "tags": ["chai", "tea", "tea-color"],
+        "common": "tea"
+    }, 
+    {
+        "product": "Lettuce - Sea / Sea Asparagus",
+        "description": "Partial traumatic transphalangeal amputation of right little finger, initial encounter",
+        "price": "9.46",
+        "image": "main-image.png",
+        "secondary_image": ["option.png", "option.png", "option.png" ],
+        "tags": ["sag", "vegetable", "salad", "salad-ingrediants"],
+        "common": "vegetable"
+    }, 
+    {
+        "product": "Rice Paper",
+        "description": "Puncture wound with foreign body of abdominal wall, left lower quadrant with penetration into peritoneal cavity, initial encounter",
+        "price": "19.01",
+        "image": "main-image.png",
+        "secondary_image": ["option.png", "option.png", "option.png" ],
+        "tags": ["rice", "chamal", "rice-roller", "sushi"],
+        "common": "rice"
+    }, 
+    {
+        "product": "Cod - Salted, Boneless",
+        "description": "Nondisplaced fracture of medial malleolus of left tibia, subsequent encounter for closed fracture with malunion",
+        "price": "11.97",
+        "image": "main-image.png",
+        "secondary_image": ["option.png", "option.png", "option.png" ],
+        "tags": ["fish", "fish-meat", "sea-fish", "sea"],
+        "common": "fish"
+    }, 
+    {
+        "product": "Filo Dough",
+        "description": "Unspecified open wound of unspecified breast, initial encounter",
+        "price": "17.74",
+        "image": "main-image.png",
+        "secondary_image": ["option.png", "option.png", "option.png" ],
+        "tags": ["biscuit", "breakfast", "eatable", "with-tea"],
+        "common": "fish"
+    }, 
+    {
+        "product": "Roe - Flying Fish",
+        "description": "Unspecified fracture of shaft of left fibula, subsequent encounter for closed fracture with delayed healing",
+        "price": "25.42",
+        "image": "main-image.png",
+        "secondary_image": ["option.png", "option.png", "option.png" ],
+        "tags": ["fish-egg", "machha-ko-aanda", "flying-fish", "roe"],
+        "common": "meat"
+    }
+]

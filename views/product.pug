@@ -1,0 +1,84 @@
+extends base
+
+block content
+    .highlight-heading(style='margin: 0 0 1rem 5rem; cursor: pointer;') Back
+    section.clicked-product-container
+      .image-preview
+        .big-main-img-container
+          img(src=`./images/main-image.png` alt=`${queryProduct.product}` style='max-height: 100%; max-width: 100%;')
+        .small-preview-container
+          .img-preview-one
+            img(src=`./images/${queryProduct.image}` alt='' style='max-height: 85%; max-width: 85%;')
+          .img-preview-one
+            img(src=`./images/${queryProduct.image}` alt='' style='max-height: 85%; max-width: 85%;')
+          .img-preview-one
+            img(src=`./images/${queryProduct.image}` alt='' style='max-height: 85%; max-width: 85%;')
+      .product-items-information
+        p.highlight-heading= queryProduct.product
+        .small-but-important
+          .cart-added
+            p.added-in-cart Added-in-cart = 
+            p.added-in-cart-number 56
+          .Reviewed-commented
+            p.Reviewed-name Reviewed = 
+            p.reward-number 78
+          .Rated-Given
+            p.rated-name Rated = 
+            p.rated-number 4.8
+        .price-tag-product-view
+          .current-price
+            p.highlight-heading= queryProduct.price
+          .discount-price
+            p.highlight-heading $750
+        .review-container
+          p.highlight-heading(style='margin-top: .5rem; cursor: pointer;') Review 
+        .product-specification-container(style='margin-top: .5rem; cursor: pointer;')
+          p.highlight-heading= queryProduct.description
+        .buy-or-cart-section
+          .purchase-section
+            button.highlight-heading.purchase-button Purchase 
+          .add-cart-section
+            button.highlight-heading.cart-button  Add-to-Cart
+        h1.highlight-heading(style='margin-top: 1rem;') Additional Item To Buy With
+        
+        .Additional-item-along-with
+          each alt in alternative 
+            .additional-item-product(style='margin-top: 1rem;')
+              .image-display-container
+                img(src=`./images/${alt.image}` alt='' style='max-width: 100%; max-height: 100%;')
+              .information-section
+                h1.highlight-heading= alt .product
+                .price-tag-additional-item
+                  p.highlight-heading= alt.price
+          
+          
+        //- h1.highlight-heading(style='margin-top: 1rem;') Alternative Product
+        //- .Additional-item-along-with
+        //-   .additional-item-product(style='margin-top: 1rem;')
+        //-     .image-display-container
+        //-       img(src=`./images/${queryProduct.image}` alt='' style='max-width: 100%; max-height: 100%;')
+        //-     .information-section
+        //-       h1.highlight-heading Apple Watch
+        //-       .price-tag-additional-item
+        //-         p.highlight-heading $120
+        //-   .additional-item-product(style='margin-top: 1rem;')
+        //-     .image-display-container
+        //-       img(src=`./images/${queryProduct.image}` alt='' style='max-width: 100%; max-height: 100%;')
+        //-     .information-section
+        //-       h1.highlight-heading Apple Watch
+        //-       .price-tag-additional-item
+        //-         p.highlight-heading $120
+        //-   .additional-item-product(style='margin-top: 1rem;')
+        //-     .image-display-container
+        //-       img(src=`./images/${queryProduct.image}` alt='' style='max-width: 100%; max-height: 100%;')
+        //-     .information-section
+        //-       h1.highlight-heading Apple Watch
+        //-       .price-tag-additional-item
+        //-         p.highlight-heading $120
+        //-   .additional-item-product(style='margin-top: 1rem;')
+        //-     .image-display-container
+        //-       img(src=`./images/${queryProduct.image}` alt='' style='max-width: 100%; max-height: 100%;')
+        //-     .information-section
+        //-       h1.highlight-heading Apple Watch
+        //-       .price-tag-additional-item
+        //-         p.highlight-heading $120

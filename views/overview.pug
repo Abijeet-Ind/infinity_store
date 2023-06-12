@@ -1,0 +1,68 @@
+extends base
+
+block append head
+  link(rel="shortcut icon", href="./images/logo/logo.png", type="image/x-icon")
+  link(href='owlcarousel/owl.theme.default.min.css')
+  link(rel='stylesheet' href='./.../public/style/style.css')
+
+block content 
+  section.hot-deal-section
+    p.highlight-heading Hot Deals
+    .product-deals-container
+      each item in products 
+        a(href=`products/${item.slug}` style="text-decoration: none;") 
+          .product-container
+            .image-div
+              img(src=`./images/${item.image}` alt='apple headphone' style='max-height:100%; max-width:100%;')
+            .image-information
+              .first-check-info
+                p.name= item.product
+                .price-tag
+                  p.discount-price= item.price
+                  p.price $550
+              //- p.product-description= item.description
+                
+        
+  // RECENTLY ADDED
+  section.recently-added-container
+    p.highlight-heading Recently Added
+    .reacently-added-section
+      .product-deals-container
+        each item in products 
+          a(href=`products/${item.slug}` style="text-decoration: none;") 
+            .product-container
+              .image-div
+                img(src=`./images/${item.image}` alt='apple headphone' style='max-height:100%; max-width:100%;')
+              .image-information
+                .first-check-info
+                  p.name= item.product
+                  .price-tag
+                    p.discount-price= item.price
+                    p.price $550
+                //- p.product-description= item.description
+        
+  // LATEST TREND
+  section.market-trend-container
+    p.highlight-heading Latest In The Market
+    .trend-one-image-slider
+      .image-container
+        .this-will-be-removed-after-video
+          p.highlight-heading(style='background-color: transparent;') VIDEO WILL BE UPLOADED HERE
+          p.highlight-heading(style='background-color: transparent;')  &amp;nbsp SLIDER WILL BE UPLOADED HERE
+  
+  // ELECTRONICS SECTION
+  section.electronics-section
+    p.highlight-heading ELECTRONICS
+    .product-deals-container
+      each item in products 
+        a(href=`products/${item.slug}` style="text-decoration: none;") 
+          .product-container
+            .image-div
+              img(src=`./images/${item.image}` alt='apple headphone' style='max-height:100%; max-width:100%;')
+            .image-information
+              .first-check-info
+                p.name= item.product
+                .price-tag
+                  p.discount-price= item.price
+                  p.price $550
+              //- p.product-description= item.description
